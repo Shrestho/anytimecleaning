@@ -1,0 +1,23 @@
+.banner-container {
+    height: 980px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100%;
+}
+
+.left-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    background-color: #f7fafc;
+}
+
+.right-column {
+    background-color: #edf2f7;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
